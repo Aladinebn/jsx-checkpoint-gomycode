@@ -1,0 +1,33 @@
+.App {
+    margin: 0;
+    padding: 15px;
+}
+
+.title {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.photoInSRC , .photoInPUB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photoInSRC img{
+    width: 250px;
+    padding: 20px;
+}
+
+
+.photoInPUB img{
+    max-width: 100%;
+}
+
+.vid {
+    padding-top: 20px;
+}
